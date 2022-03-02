@@ -1,0 +1,11 @@
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: flex-end;
+}

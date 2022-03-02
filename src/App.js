@@ -1,20 +1,17 @@
 
 import './App.css';
-import { Routes, Route, NavLink } from 'react-router-dom'
-import Home from './components/home/Home'
-import ProductList from './components/products/ProductList'
-import Cart from './components/cart/Cart'
+import { Routes, Route } from 'react-router-dom'
+import Header from './components/header/Header'
+import AboutMe from './components/home/AboutMe'
+import AppList from './components/applications/App'
+import Contact from './components/applications/App'
 
 function App() {
   return (
     <>
-      <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/apps">My Apps</NavLink>
-        <NavLink to="/contact">Contact Me</NavLink>
-      </nav>
+    < Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<AboutMe />} />
         <Route path="/apps" element={<AppList />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
@@ -24,4 +21,3 @@ function App() {
 
 export default App;
 
-export default App;
