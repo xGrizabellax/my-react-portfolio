@@ -1,0 +1,36 @@
+.app-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.apps-nav {
+    margin-right: 100px;
+}
+
+.apps-nav li {
+    margin-bottom: 40px;
+}
+
+.app-link {
+    text-align: center;
+}
+
+.app-img {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.app-title {
+    text-align: center;
+}
+
+.list-app {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sing-app-img {
+    width: 200px;
+}

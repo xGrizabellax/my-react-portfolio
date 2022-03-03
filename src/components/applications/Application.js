@@ -1,6 +1,6 @@
 import { useOutletContext, useParams } from "react-router-dom";
 import { Card } from "antd";
-const { Meta } = Card;
+// const { Meta } = Card;
 
 export default function Application() {
     const [selectedApp, setSelectedApp] = useOutletContext();
@@ -19,7 +19,6 @@ export default function Application() {
             <img className="app-img" alt={app.title} src={app.imageSrc} />
           }
         >
-          <Meta title={app.title} />
         </Card>
         </a>
       ) : <p>Please select a app</p>
