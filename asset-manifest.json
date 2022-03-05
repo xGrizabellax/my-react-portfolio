@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.3bbea35a.css",
-    "main.js": "/my-react-portfolio/static/js/main.d46fd0b3.js",
+    "main.css": "/my-react-portfolio/static/css/main.74419cc1.css",
+    "main.js": "/my-react-portfolio/static/js/main.c0eac0fb.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/gamejunkee-home.jpg": "/my-react-portfolio/static/media/gamejunkee-home.1562d67971b60d79852c.jpg",
     "static/media/eventube.PNG": "/my-react-portfolio/static/media/eventube.99752243b69c68723cc5.PNG",
+    "static/media/weather-tracker.PNG": "/my-react-portfolio/static/media/weather-tracker.1139ec38feb31f4b8172.PNG",
     "static/media/tech-blog.jpg": "/my-react-portfolio/static/media/tech-blog.aeb4c3cbe324f0a2b318.jpg",
+    "static/media/daily-planner.PNG": "/my-react-portfolio/static/media/daily-planner.7882621b8f7728e2a10f.PNG",
     "index.html": "/my-react-portfolio/index.html",
-    "main.3bbea35a.css.map": "/my-react-portfolio/static/css/main.3bbea35a.css.map",
-    "main.d46fd0b3.js.map": "/my-react-portfolio/static/js/main.d46fd0b3.js.map",
+    "main.74419cc1.css.map": "/my-react-portfolio/static/css/main.74419cc1.css.map",
+    "main.c0eac0fb.js.map": "/my-react-portfolio/static/js/main.c0eac0fb.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bbea35a.css",
-    "static/js/main.d46fd0b3.js"
+    "static/css/main.74419cc1.css",
+    "static/js/main.c0eac0fb.js"
   ]
 }
