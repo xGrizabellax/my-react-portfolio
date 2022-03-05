@@ -2,35 +2,81 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin-top: 4em;
+}
+
+.app-welcome {
+    text-align: center;
 }
 
 .apps-nav {
     margin-right: 100px;
+    background-color: rgb(33, 35, 41);
+    display: block;
+    width: 20%;
+    height: 500px;
+    overflow-y: scroll;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    border: solid 1px rgb(156, 156, 156);
+    border-radius: 5px;
 }
 
 .apps-nav li {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
+    list-style-type: none;
 }
 
 .app-link {
     text-align: center;
+    color: rgb(139, 139, 139)
+}
+
+.sing-app-img {
+    width: 180px;
+    border: solid 2px grey;
+    border-radius: 20px;
+}
+
+.app-link:hover {
+    color: white;
+}
+
+.sing-app-img:hover {
+    width: 190px;
+    border: solid 2px rgb(255, 255, 255);
+    transform: translate(-5px);
+}
+
+ul {
+    padding-inline-start: 0;
+    padding-left: 35px;
+    padding-right: 40px;
 }
 
 .app-img {
-    width: 500px;
-    margin-left: 100px;
+    width: 700px;
+    border: solid 0.5em black;
+    border-radius: 1em;
+    /* margin-left: 100px; */
 }
 
 .app-title {
     text-align: center;
+    color: white;
+    background: linear-gradient(0.25turn, rgb(58, 58, 58), black, rgb(58, 58, 58));
+    margin: unset;
 }
 
-.list-app {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
+.apps-main {
+    margin-left: 100px;
 }
 
-.sing-app-img {
-    width: 200px;
+h3 {
+    margin-bottom: 5px;
+}
+
+.app-img:hover {
+    border: solid 0.5em rgb(117, 117, 117);
 }

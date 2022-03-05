@@ -6,10 +6,10 @@ import './Header.css'
 export default function NavBar() {
     return (
         <nav className='nav-bar'>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/apps">My Apps</NavLink>
-        <NavLink to="/contact">Contact Me</NavLink>
-        <NavLink to="/resume">Resume</NavLink>
+        <NavLink className="ind-nav-link" to="/">Home</NavLink>
+        <NavLink className="ind-nav-link" to="/apps">My Apps</NavLink>
+        <NavLink className="ind-nav-link" to="/contact">Contact Me</NavLink>
+        <NavLink className="ind-nav-link" to="/resume">Resume</NavLink>
         </nav>
     )
 }

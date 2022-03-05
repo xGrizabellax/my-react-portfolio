@@ -1,0 +1,20 @@
+.footer-area {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.footer-area a {
+    margin: 0.5em;
+    font-size: 400%;
+    color: black;
+}
+
+.footer-area a:hover {
+    color: rgb(64, 171, 233);
+}
+
+.footer-area .github-icon:hover {
+    color: rgb(190, 74, 243);
+}
