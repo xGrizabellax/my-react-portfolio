@@ -1,0 +1,22 @@
+.about-me-title {
+    text-align: center;
+}
+
+.sam-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+
+    /* overflow: hidden; */
+}
+
+#sam {
+    width: 22.5em;
+    height: 22em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border: solid rgb(27, 27, 27) .5em;
+    border-radius: 3em;
+
+}
