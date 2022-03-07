@@ -21,7 +21,7 @@ export default function AppList() {
 
     return (
         <div>
-            <h1 className="app-welcome">Welcome to my applications!</h1>
+            {/* <h1 className="app-welcome">Welcome to my applications!</h1> */}
             <div className="app-container">
                 <aside className="apps-nav">
                         <ul>{appLinks}</ul>

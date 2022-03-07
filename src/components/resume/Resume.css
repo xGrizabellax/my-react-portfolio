@@ -1,0 +1,18 @@
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-title {
+    font-size: 150%;
+    color: white;
+    margin-top: unset;
+    margin-bottom: 1em;
+}
+
+.resume-image {
+    border: solid .15em rgb(189, 54, 189);
+    margin: .5em;
+    width: 20em;
+}

@@ -3,6 +3,10 @@
     margin-top: 3em;
     margin-bottom: 1em;
     padding: 1em;
+    /* background: linear-gradient(rgb(36, 0, 102), rgb(73, 35, 145)); */
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-area a {
@@ -12,7 +16,7 @@
 }
 
 .footer-area a:hover {
-    color: rgb(64, 171, 233);
+    color: rgb(34, 159, 231);
 }
 
 .footer-area .github-icon:hover {

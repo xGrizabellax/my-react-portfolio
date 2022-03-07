@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-top: 4em;
+    margin-top: 1.5em;
 }
 
 .app-welcome {
@@ -11,7 +11,7 @@
 
 .apps-nav {
     margin-right: 100px;
-    background-color: rgb(33, 35, 41);
+    background-color: rgb(14, 0, 51);
     display: block;
     width: 20%;
     height: 500px;
@@ -30,7 +30,7 @@
 
 .app-link {
     text-align: center;
-    color: rgb(139, 139, 139)
+    color: rgb(165, 165, 165)
 }
 
 .sing-app-img {
@@ -65,7 +65,6 @@ ul {
 .app-title {
     text-align: center;
     color: white;
-    background: linear-gradient(0.25turn, rgb(58, 58, 58), black, rgb(58, 58, 58));
     margin: unset;
 }
 

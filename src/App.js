@@ -7,6 +7,7 @@ import AboutMe from './components/home/AboutMe'
 import AppList from './components/applications/AppList'
 import Application from './components/applications/Application'
 import Contact from './components/contact/Contact'
+import Resume from './components/resume/Resume'
 import appData from './data/appData'
 
 
@@ -20,8 +21,10 @@ function App() {
           <Route path=":id" element={<Application appData={appData}/>} />
         </Route>
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+
       </Routes>
-      < Footer />
+      < Footer/>
     </>
   )
 }

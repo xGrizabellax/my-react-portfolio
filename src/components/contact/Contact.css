@@ -1,0 +1,25 @@
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    background-color: rgb(106, 84, 231);
+    border-radius: 1em;
+    width: 30em;
+    height: 20em;
+    padding: 2em;
+}
+
+.inputs {
+    margin: 1em;
+}
