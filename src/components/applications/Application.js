@@ -8,7 +8,7 @@ export default function Application({ appData }) {
     const { id } = useParams()
     console.log('url id:', id)
   
-  
+    // id =  '/my-react-portfolio/' + {id}
     const app = selectedApp;
     console.log(app)
     const display = selectedApp ? (

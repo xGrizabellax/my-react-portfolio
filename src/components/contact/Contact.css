@@ -1,11 +1,53 @@
 .contact-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
 }
 
-.contact-info {
+
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    color: rgb(214, 248, 135);
+    background-color: rgb(28, 10, 131);
+    border: solid 1px rgb(23, 219, 170);
+    border-radius: 1em;
+    width: 25em;
+    height: 20em;
+    padding: 2em;
+    align-items: center;
     text-align: center;
+    opacity: 80%;
+
+}
+
+.contact-info-title {
+    margin-top: unset;
+    font-size: 180%;
+    color: rgb(174, 247, 228);
+    text-decoration: underline;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.contact-me {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(0.25turn, rgb(28, 10, 131), rgb(23, 219, 170), rgb(28, 10, 131));
+    /* border-top: solid .01em white; */
+    border-bottom: solid .01em rgb(23, 219, 170);
+}
+
+.contact-section .or {
+    height: 8em;
+    line-height: 8em;
+    text-align: center;
+  }
+
+.or {
+    font-size: 200%;
+    font-weight: bolder;
 }
 
 .contact-form {
@@ -14,12 +56,27 @@
     justify-content: space-between;
     color: black;
     background-color: rgb(106, 84, 231);
+    border: solid 1px rgb(73, 5, 58);
     border-radius: 1em;
-    width: 30em;
+    width: 25em;
     height: 20em;
     padding: 2em;
+    align-items: center;
+}
+
+.form-label {
+    font-size: 180%;
+    background: linear-gradient(0.25turn, rgb(106, 84, 231), white, rgb(106, 84, 231));
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .inputs {
     margin: 1em;
+    height: 2em;
+    width: 18em;
+}
+
+.message-input {
+    height: 5em;
 }

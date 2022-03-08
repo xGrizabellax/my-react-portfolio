@@ -4,6 +4,9 @@
     justify-content: center;
     margin-top: .5em;
     border-top: 1em;
+    background-color: rgba(186, 5, 202, 0.103);
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .sam-images:hover {

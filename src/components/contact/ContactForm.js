@@ -4,8 +4,8 @@ export default function ContactForm() {
     const [ formValues, setFormValues ] = useState({
     })
     return (
-        <form className='contact-form'>
-            <label>Leave a message and your info:</label>
+        <form className='contact-form contact'>
+            <label className='form-label'>LEAVE A MESSAGE:</label>
             <input 
                 className='name-input inputs'
                 type='text'
