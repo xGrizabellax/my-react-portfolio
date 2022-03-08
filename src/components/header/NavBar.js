@@ -5,19 +5,19 @@ import { HomeOutlined, HomeFilled, AppstoreOutlined, AppstoreFilled, MailOutline
 export default function NavBar() {
     return (
         <nav className='nav-bar'>
-            <NavLink className="ind-nav-link home-link" to="/">
+            <NavLink className="ind-nav-link home-link" to="/my-react-portfolio/">
                 <HomeOutlined className='home-outline' />
                 < HomeFilled className='home-fill' /> Home
             </NavLink>
-            <NavLink className="ind-nav-link apps-link" to="/apps">
+            <NavLink className="ind-nav-link apps-link" to="/my-react-potfolio/apps">
                 <AppstoreOutlined className='apps-outline' />
                 < AppstoreFilled className='apps-fill' /> My Apps
             </NavLink>
-            <NavLink className="ind-nav-link contact-link" to="/contact">
+            <NavLink className="ind-nav-link contact-link" to="/my-react-potfolio/contact">
                 <MailOutlined className='mail-outline' />
                 < MailFilled className='mail-fill' /> Contact
             </NavLink>
-            <NavLink className="ind-nav-link resume-link" to="/resume">Resume</NavLink>
+            <NavLink className="ind-nav-link resume-link" to="/my-react-potfolio/resume">Resume</NavLink>
         </nav>
     )
 }
