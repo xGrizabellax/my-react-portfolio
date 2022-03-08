@@ -10,9 +10,9 @@ export default function AppList() {
     const appLinks = appData.map((app) => {
         return (
             <li className="list-app" key={app.id} onClick={() => setSelectedApp(app)}>
-                <NavLink className="app-link" to={`/apps/${app.id}`}>
+                <NavLink className="app-link" to={`/my-react-portfolio/apps/${app.id}`}>
                     <h3>{app.title}</h3>
-                    <img to={`/apps/${app.id}`} className="sing-app-img" src={app.imageSrc} />
+                    <img to={`/my-react-portfolio/apps/${app.id}`} className="sing-app-img" src={app.imageSrc} />
                 </NavLink>
             </li>
         )
