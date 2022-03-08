@@ -5,7 +5,7 @@ A re-re-re-updated version of my professional portfolio done with react. With mo
 The new landing page for my react-portfolio:
 ![Screen Shot 2022-03-08 at 6 02 41 AM](https://user-images.githubusercontent.com/88065363/157234576-edc5e8f3-d0c6-4bd8-95c7-e89145a856d2.png)
 
-[Click here](<https://xgrizabellax.github.io/my-react-portfolio/>) to see my reace portfolio!
+[Click here](<https://xgrizabellax.github.io/my-react-portfolio/>) to see my react portfolio!
 
 
   ## Questions:
