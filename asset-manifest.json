@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.3aa6c1a5.css",
-    "main.js": "/my-react-portfolio/static/js/main.384919fc.js",
+    "main.js": "/my-react-portfolio/static/js/main.7920727f.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/gamejunkee-home.jpg": "/my-react-portfolio/static/media/gamejunkee-home.1562d67971b60d79852c.jpg",
     "static/media/mario-sam.jpg": "/my-react-portfolio/static/media/mario-sam.287c6f01d7f2350f3074.jpg",
@@ -17,11 +17,11 @@
     "static/media/daily-planner.PNG": "/my-react-portfolio/static/media/daily-planner.7882621b8f7728e2a10f.PNG",
     "index.html": "/my-react-portfolio/index.html",
     "main.3aa6c1a5.css.map": "/my-react-portfolio/static/css/main.3aa6c1a5.css.map",
-    "main.384919fc.js.map": "/my-react-portfolio/static/js/main.384919fc.js.map",
+    "main.7920727f.js.map": "/my-react-portfolio/static/js/main.7920727f.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3aa6c1a5.css",
-    "static/js/main.384919fc.js"
+    "static/js/main.7920727f.js"
   ]
 }
