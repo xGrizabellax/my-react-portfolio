@@ -9,15 +9,15 @@ export default function NavBar() {
                 <HomeOutlined className='home-outline' />
                 < HomeFilled className='home-fill' /> Home
             </NavLink>
-            <NavLink className="ind-nav-link apps-link" to="/my-react-potfolio/apps">
+            <NavLink className="ind-nav-link apps-link" to="/my-react-portfolio/apps">
                 <AppstoreOutlined className='apps-outline' />
                 < AppstoreFilled className='apps-fill' /> My Apps
             </NavLink>
-            <NavLink className="ind-nav-link contact-link" to="/my-react-potfolio/contact">
+            <NavLink className="ind-nav-link contact-link" to="/my-react-portfolio/contact">
                 <MailOutlined className='mail-outline' />
                 < MailFilled className='mail-fill' /> Contact
             </NavLink>
-            <NavLink className="ind-nav-link resume-link" to="/my-react-potfolio/resume">Resume</NavLink>
+            <NavLink className="ind-nav-link resume-link" to="/my-react-portfolio/resume">Resume</NavLink>
         </nav>
     )
 }
