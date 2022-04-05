@@ -65,7 +65,7 @@ a {
 
 .app-img {
     width: 700px;
-    border: solid 0.5em black;
+    border: solid 0.2em black;
     border-radius: 1em;
     /* margin-left: 100px; */
 }
@@ -85,13 +85,50 @@ h3 {
 }
 
 .app-img:hover {
-    border: solid 0.5em rgb(117, 117, 117);
+    border: solid 0.2em rgb(47, 87, 197);
 }
 
 
 
 
 
+@media screen and (max-width: 1125px) {
+
+    .app-img {
+        width: 650px;
+        border: solid 0.2em black;
+        border-radius: 1em;
+        /* margin-left: 100px; */
+    }
+
+    .apps-main {
+        margin-left: 3em;
+    }
+
+    .apps-nav {
+        margin-right: 2em;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .app-img {
+        width: 450px;
+        border: solid 0.2em black;
+        border-radius: 1em;
+        /* margin-left: 100px; */
+    }
+
+    .apps-main {
+        margin-left: 3em;
+    }
+
+    .apps-nav {
+        margin-right: 2em;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
     
@@ -142,7 +179,6 @@ h3 {
 
     .app-img {
         width: 500px;
-        border: solid 0.5em black;
         border-radius: 1em;
     }
 
@@ -169,6 +205,16 @@ h3 {
     h3 {
         font-size: 80%;
         margin-bottom: 5px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .app-img {
+        width: 25em;
+        border-radius: 1em;
     }
 
 }

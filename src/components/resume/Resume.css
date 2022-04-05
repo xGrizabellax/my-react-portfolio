@@ -16,3 +16,10 @@
     margin: .5em;
     width: 20em;
 }
+
+@media screen and (max-width: 768px) {
+    .resume-images {
+        display: flex;
+        flex-direction: column;
+    }
+}

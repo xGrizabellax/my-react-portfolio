@@ -1,8 +1,8 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 export default function ContactForm() {
-    const [ formValues, setFormValues ] = useState({
-    })
+    // const [ formValues, setFormValues ] = useState({
+    // })
     return (
         <form className='contact-form contact'>
             <label className='form-label'>LEAVE A MESSAGE:</label>

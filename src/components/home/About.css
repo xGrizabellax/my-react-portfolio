@@ -80,7 +80,7 @@
 
     .about-me-div .about-me-scroll {
         width: 90%;
-        
+
     }
 
     .about-me-div {
@@ -93,5 +93,16 @@
         margin-top: 1em;
         margin-bottom: unset;
         color: white;
+    }
+
+    @media screen and (max-width: 500px) {
+        #sam {
+            width: 9.1em;
+            height: 9em;
+            margin-left: 2em;
+            margin-right: 2em;
+            border: solid rgb(226, 217, 85) .2em;
+            border-radius: 3em;
+        }
     }
 }
