@@ -4,22 +4,26 @@ import { Card } from "antd";
 
 
 export default function Application({ appData }) {
-    const [selectedApp, setSelectedApp] = useOutletContext();
+    let [selectedApp, setSelectedApp] = useOutletContext();
     const { id } = useParams()
     console.log('url id:', id)
+    console.log(appData[0])
   
     // id =  '/my-react-portfolio/' + {id}
-    const app = selectedApp;
-    console.log(app)
+    // const app = selectedApp;
+    // setSelectedApp = appData[0]
+    // // console.log(app)
+    // console.log(selectedApp)
+    // console.log(setSelectedApp)
     const display = selectedApp ? (
-      <a href={app.url}>
-        <h1 className="app-title">{app.title}</h1>
+      <a href={selectedApp.url}>
+        <h1 className="app-title">{selectedApp.title}</h1>
         <Card
-          key={app.id}
+          key={selectedApp.id}
           hoverable
           // style={{ width: 240 }}
           cover={
-            <img className="app-img" alt={app.title} src={app.imageSrc} />
+            <img className="app-img" alt={selectedApp.title} src={selectedApp.imageSrc} />
           }
         >
         </Card>

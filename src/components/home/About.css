@@ -30,7 +30,7 @@
 }
 
 .about-me-div .about-me-scroll {
-    width: 70%;
+    width: 90%;
 }
 
 .about-me-title {
@@ -45,4 +45,53 @@
     margin-top: 1em;
     margin-bottom: unset;
     color: white;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .sam-images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+        border-top: 1em;
+        background-color: rgba(186, 5, 202, 0.103);
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #sam {
+        width: 12.25em;
+        height: 12em;
+        margin-left: 2em;
+        margin-right: 2em;
+        border: solid rgb(226, 217, 85) .2em;
+        border-radius: 3em;
+    }
+
+    .about-me-title {
+        font-size: 200%;
+        margin-bottom: unset;
+        color: rgb(185, 185, 185);
+    }
+
+    .about-me-div .about-me-scroll {
+        width: 90%;
+        
+    }
+
+    .about-me-div {
+        margin-top: 1em;
+    }
+
+    .about-me-scroll {
+        font-size: 90%;
+        text-indent: 3em;
+        margin-top: 1em;
+        margin-bottom: unset;
+        color: white;
+    }
 }

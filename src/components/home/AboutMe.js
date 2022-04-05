@@ -13,20 +13,18 @@ export default function AboutMe() {
         <>
             <div className='sam-images'>
                 <Marquee speed={70} pauseOnClick={true} gradientColor={[1, 38, 80]} gradientWidth={50}>
-                    {/* <marquee  className='marquee' direction='right'> */}
                     <img id='sam' className='grad-sam' src={gradSam} alt="I'm at the beach!" />
                     <img id='sam' className='bro-sam' src={broSam} alt='With my BRO!' />
                     <img id='sam' className='wedding-sam' src={weddingSam} alt='Me in a suit!' />
                     <img id='sam' className='mario-sam' src={marioSam} alt='Me in a mario suit!' />
                     <img id='sam' className='drums-sam' src={drumSam} alt='Skins baby!' />
-                    {/* </marquee> */}
                 </Marquee>
             </div>
 
             <div className='about-me-div'>
                 <h1 className='about-me-title'>About Me</h1>
                 <div className='about-me-scroll'>
-                    Hi, my name is Sam! I am born & raised in the northern suburbs of Chicago.
+                    Hi, my name is Sam! I was born & raised in the northern suburbs of Chicago.
                     Growing up I had many hobbies. Always having a love for music, and a lot of energy,
                     the
                     drums quickly became my favorite instrument. I'm also an avid hockey player and
@@ -37,13 +35,10 @@ export default function AboutMe() {
                     Never quite sure of what I wanted to do, I
                     ultimately
                     took a job in the service industry where I continued to serve & bartend for almost nine years.
-                    Eventually, my
-                    brother,
-                    who works as a tech recruiter, proposed coding to me. I
+                    Eventually, I discovered software development, and looked into the world of coding. I
                     was
-                    intruiged and asked him for more information. That is when he recommended doing a coding bootcamp.
-                    The rest... is
-                    history!
+                    intruiged began to search for more information on the subject. That is when I came across coding bootcamps. Since then I have loved every minute while learning how to code, and have never been more eager to gain more knowledge!
+                    
                 </div>
             </div>
         </>

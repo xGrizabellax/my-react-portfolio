@@ -9,7 +9,7 @@ export default function NavBar() {
                 <HomeOutlined className='home-outline' />
                 < HomeFilled className='home-fill' /> Home
             </NavLink>
-            <NavLink className="ind-nav-link apps-link" to="/my-react-portfolio/apps">
+            <NavLink className="ind-nav-link apps-link" to="/my-react-portfolio/apps/1">
                 <AppstoreOutlined className='apps-outline' />
                 < AppstoreFilled className='apps-fill' /> My Apps
             </NavLink>
