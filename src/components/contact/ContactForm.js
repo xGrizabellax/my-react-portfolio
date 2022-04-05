@@ -6,6 +6,7 @@ export default function ContactForm() {
     return (
         <form className='contact-form contact'>
             <label className='form-label'>LEAVE A MESSAGE:</label>
+            <p>(Temporarily Out of Order)</p>
             <input 
                 className='name-input inputs'
                 type='text'
