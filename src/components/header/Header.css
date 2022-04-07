@@ -196,8 +196,17 @@
     }
 
     @media screen and (max-width: 500px) {
+        .header-titles {
+            margin-left: unset;
+            margin-top: -1em;
+        }
+
         .ind-nav-link {
-            font-size: 90%;
+            font-size: 70%;
+        }
+
+        .header-nav .nav-bar {
+           margin-top: -.5em;
         }
     }
 }
